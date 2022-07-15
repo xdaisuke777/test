@@ -1,3 +1,7 @@
+body{
+    background-color:cadetblue;
+    padding:10px;
+}
 #app{
     width:80%;
     margin:0 auto;
