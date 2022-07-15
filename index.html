@@ -5,12 +5,15 @@
 </head>
 <body>
     <div id="app">
-        <input type="text">
+        <h1>{{title}}</h1>
+        <input type="text" v-model="input1">
         <span>+</span>
-        <input type="text">
+        <input type="text" v-model="input2">
         <span>=</span>
-        <span>答え</span>
-        <button>計算</button>
+        <span>{{answer}}</span>
+        <button v-on:click="add">計算</button>
     </div>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="scripts/app.js"></script>
 </body>
 </html>
